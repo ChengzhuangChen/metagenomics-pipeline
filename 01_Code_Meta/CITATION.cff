@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Metagenomics Pipeline"
+abstract: "Complete pipeline for metagenomic data analysis including quality control, hybrid assembly, genome binning, MAG quality assessment (CheckM), taxonomy classification (GTDB-Tk), abundance profiling (CoverM), and functional annotation (eggNOG)."
+version: 1.0.0
+date-released: 2024
+repository-code: "https://github.com/ChengzhuangChen/metagenomics-pipeline"
+license: MIT
+authors:
+  - family-names: "Chen"
+    given-names: "Chengzhuang"
+keywords:
+  - metagenomics
+  - MAG
+  - assembly
+  - binning
+  - antibiotic-resistance
+  - ARG
+  - MGE
+  - bioinformatics
+  - microbiome

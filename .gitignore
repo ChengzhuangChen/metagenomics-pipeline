@@ -1,0 +1,18 @@
+# Ignore temporary and backup files
+*.pyc
+__pycache__/
+*.log
+*.tmp
+*.bak
+
+# Ignore raw scripts (keep only the combined pipeline scripts)
+00_process_blast_files.*.py
+02_diamond_contig.sh
+ARG_226.sh
+renameID.txt
+
+# Ignore folders not for upload
+ARG-MGE/
+logs/
+temp/
+tmp/

@@ -1,0 +1,37 @@
+name: metagenomics
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  # QC and Assembly
+  - trimmomatic=0.39
+  - fastqc=0.12.1
+  - multiqc=1.30
+  - spades=4.2.0
+  - megahit=1.2.9
+  - bowtie2=2.4.5
+  - samtools=1.14
+  - quast=5.3.0
+  - seqkit=2.0.0
+  - bioawk=1.0
+  - biopython=1.79
+  # Binning tools
+  - metabat2=2.12.1
+  - maxbin2=2.2.6
+  - concoct=1.1.0
+  - semibin2=2.2.0
+  - das_tool=1.1.6
+  - hmmer=3.3.2
+  - prodigal=2.6.3
+  # Quality assessment
+  - checkm-genome=1.2.0
+  - drep=3.4.5
+  # Taxonomy
+  - gtdbtk=2.4.0
+  # Abundance
+  - coverm=0.6.1
+  # Functional annotation
+  - mmseqs2=13.10711
+  - eggnog-mapper=2.1.12
